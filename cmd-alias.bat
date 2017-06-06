@@ -1,0 +1,10 @@
+doskey sayhello=echo Hello $*
+doskey cattxt=type $*
+doskey su=net user Administrator
+doskey cp=copy source
+doskey history=doskey /history
+doskey rm=del /Q
+doskey diff=fc /w $*
+@dockey tree=tree /f
+@doskey ls=dir /b $*
+@doskey l=dir /od/p/q/tw $*

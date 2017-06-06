@@ -1,0 +1,12 @@
+#TOMCAT
+alias ctomcat='cd /opt/tomcat/dwarp_apache-tomcat-8'
+#bshell
+alias tail='tail -fn 100'
+alias grep='grep --color'
+alias ..='cd ..'
+#mysql
+alias mysqlt='mysql -hrm-wz99533o97cxwt7d5.mysql.rds.aliyuncs.com -uchief2016 -pYong813211'
+alias mysqlc='mysql -u chief2016 -p -h rm-wz99533o97cxwt7d5.mysql.rds.aliyuncs.com -D invoicing<'
+#redis
+alias redis-cli='cd /usr/local/redis/redis-3.2.6/src;./redis-cli -h r-wz9d0e141641e1a4.redis.rds.aliyuncs.com'
+
