@@ -1,5 +1,8 @@
+#import config
+. .aliasconfig
+
 #TOMCAT
-alias ctomcat='cd /opt/tomcat/dwarp_apache-tomcat-8'
+alias ctomcat='cd /usr/local/tomcat/twdrp-tomcat-8.0.30'
 #bshell
 alias tail='tail -fn 100'
 alias grep='grep --color'
@@ -10,8 +13,8 @@ alias valias='vim ~/.alias'
 alias salias='source ~/.bash_profile'
 
 #mysql
-alias mysqlt='mysql -hrm-wz99533o97cxwt7d5.mysql.rds.aliyuncs.com -uchief2016 -pYong813211'
-alias mysqlc='mysql -u chief2016 -p -h rm-wz99533o97cxwt7d5.mysql.rds.aliyuncs.com -D invoicing<'
+alias mysqlt="mysql -h${mysqladdress} -u${mysqluser} -p${mysqlpass}"
+alias mysqlc='mysqlt -D '
 #redis
-alias redis-cli='cd /usr/local/redis/redis-3.2.6/src;./redis-cli -h r-wz9d0e141641e1a4.redis.rds.aliyuncs.com'
+alias redis-cli='cd ${redisAddress};./redis-cli -h ${redishost}'
 
