@@ -15,6 +15,7 @@ alias salias='source ~/.bash_profile'
 #mysql
 alias mysqlt="mysql -h${mysqladdress} -u${mysqluser} -p${mysqlpass}"
 alias mysqlc='mysqlt -D '
+alias mysqldump="mysqldump -h${mysqladdress} -u${mysqluser} -p${mysqlpass} --databases"
 #redis
 alias redis-cli='cd ${redisAddress};./redis-cli -h ${redishost}'
 
